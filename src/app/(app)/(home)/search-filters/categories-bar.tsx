@@ -32,7 +32,6 @@ export const CategoriesBar = ({ data }: Props) => {
             const containerWidth = containerRef.current.offsetWidth;
             const viewAllWidth = viewAllRef.current.offsetWidth;
             const availableWidth = containerWidth - viewAllWidth;
-            console.log("Container width:", containerWidth, "View All width:", viewAllWidth, "Available width:", availableWidth);
             const items = Array.from(measureRef.current.children);
             let totalWidth = 0;
             let visibleCount = 0;
